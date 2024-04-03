@@ -6,15 +6,16 @@ int main() {
     float totalgrades = 0.0;
     cout << "Enter the total number of subjects: \n";
     cin >> n_sub;
-    for (int i = 1; i <= n_sub; i++) {
-        float credit, grade;
+    for (int i = 1; i <= n_sub; i++) { 
+        float credit, grade;  // Jitne subj. h un sabke credit and grade lege.
         cout << "Enter credit for subject "<<i<<": \n";
         cin >> credit;
         cout << "Enter grade for subject "<<i<<": \n";
         cin >> grade;
-        totalcredits += credit;
-        totalgrades += credit * grade;}
-    if(totalcredits>0){
+        totalcredits += credit; // totalcredits me saare subj. ke credits add hoge.
+        totalgrades += credit * grade;  // totalgrades me credit * grade hoga phir wo totalgrades me add ho jaayega.
+        }
+    if(totalcredits>0){ // totalcredits 0 nahi ho sakte.
     float cgpa = totalgrades / totalcredits;
     cout << "Your CGPA is: \n" << cgpa;}
     else{
