@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 int power(int num1,int num2){   // num2 power h num1 ki.
     int n = 1;    // n ek temp. var. h jisme num1 multiply hoke store hoga
