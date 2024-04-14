@@ -4,7 +4,7 @@
 using namespace std;
 class login{
     private:
-    map<string,string>users; // users map ka var. h jisme 1st string username ke liye h jo link h 2nd string password se.
+    map<string,string>users; // users map ka var. h jisme 1st string username ke liye h and h 2nd string password se.
     public:
     bool registeruser(string username,string password){ // registeruser is a func. which register a new user.
         if(users.find(username)==users.end()){  //  It checks if the username already exists in the users map.
