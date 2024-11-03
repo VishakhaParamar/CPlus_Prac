@@ -1,1 +1,1 @@
-Here we have all codes of C++ which we have learned.
+This repository contains a collection of C++ projects focused on practicing core programming concepts and utilizing standard libraries. The projects demonstrate the use of functions, algorithms, and data structures to solve various problems and build small applications. Ideal for strengthening fundamental C++ skills, these projects cover topics such as basic game logic, mathematical functions, data sorting, and simple system simulations.
