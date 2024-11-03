@@ -1,4 +1,3 @@
-```markdown
 # C++ Projects Repository
 
 Welcome to the C++ Projects Repository! This collection of projects is designed to help you practice and strengthen your core programming concepts while utilizing standard libraries in C++. Each project demonstrates various programming techniques and applications, making it an ideal resource for anyone looking to enhance their fundamental C++ skills.
@@ -39,20 +38,11 @@ To get started with these projects, follow these steps:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/cpp-projects.git
-   ```
+   
+cd cpp-projects
 
-2. Navigate to the project directory:
-   ```bash
-   cd cpp-projects
-   ```
-
-3. Compile and run the desired project using a C++ compiler. For example:
-   ```bash
-   g++ -o project_name project_name.cpp
-   ./project_name
-   ```
-
-Make sure you have a compatible C++ compiler installed (e.g., g++, clang).
+g++ -o project_name project_name.cpp
+./project_name
 
 ## Contributing
 
@@ -65,7 +55,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to explore the projects and enhance your C++ skills!
-```
 
 ### Notes:
 - Make sure to replace the placeholder link in the clone command with the actual URL of your GitHub repository.
